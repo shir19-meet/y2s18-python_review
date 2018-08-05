@@ -1,1 +1,20 @@
 # Write your solutions for 1.5 here!
+class superheros:
+	def __init__ (self, name,superpower, strength ):
+		self.name = name
+		self.superpower= superpower
+		self.strength = strength
+
+	def save_civilian (self, work):
+		strength = strength - work
+
+
+super = superheros("deadpool", "healing", "10")
+print (super.name)
+print(super.superpower)
+print(super.strength)
+
+
+	
+
+

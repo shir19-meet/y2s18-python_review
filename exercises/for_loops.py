@@ -5,4 +5,6 @@ for i in range(101):
 	sum= sum + num
 	num = (num+1)
 print(sum)
+
+
 	
